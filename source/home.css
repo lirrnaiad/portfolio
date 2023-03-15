@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(82, 68, 209, 0.699), rgba(97, 52, 180, 0.5)),url(../source/images/home/hero-image.jpg);
+    height: 80%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text-header {
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    transform: translate(-50%, -50%)
+    color white;
+}
